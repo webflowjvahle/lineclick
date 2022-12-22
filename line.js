@@ -17,7 +17,7 @@ element.addEventListener("click", function () {
         let tl = gsap.timeline();
         tl.to($(this).find(".line-mask"), {
           width: "0%",
-          duration: 5,
+          duration: 4,
         });
       });
     }
