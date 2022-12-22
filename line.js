@@ -1,5 +1,5 @@
-const element = document.querySelector(`[data-clients]`);
-element.addEventListener("click", function () {
+const navLinkClients = document.querySelector(`[data-clients]`);
+navLinkClients.addEventListener("click", function () {
   setTimeout(function () {
     let typeSplit;
 
