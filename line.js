@@ -17,9 +17,9 @@ navLinkClients.addEventListener("click", function () {
         let tl = gsap.timeline();
         tl.to($(this).find(".line-mask"), {
           width: "0%",
-          duration: 4,
+          duration: 3,
         });
       });
     }
-  }, 200);
+  }, 400);
 });
