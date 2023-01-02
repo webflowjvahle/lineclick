@@ -21,5 +21,5 @@ navLinkClients.addEventListener("click", function () {
         });
       });
     }
-  }, 400);
+  }, 600);
 });
